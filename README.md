@@ -6,4 +6,4 @@
 
 <p>HTML-CSS-JavaScript kullanıldı. </br> Responsive yapı kullanıldı</p>
 
-![](/gif/screen-1.gif)
+![](/gif/mobile.gif)
