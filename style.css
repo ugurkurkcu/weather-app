@@ -1,0 +1,143 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-position: center;
+
+  background: linear-gradient(
+    to top,
+    rgba(7, 7, 7, 1),
+    rgba(73, 31, 1),
+    rgba(182, 129, 129, 1),
+    rgba(140, 0, 195, 1)
+  );
+}
+
+main {
+  /* background-image: url(images/sky.jpg); */
+  background-image: url(images/bg.jpg);
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: inset 0 0 20px rgb(0, 0, 0), 0 0 10px rgb(255, 255, 255);
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.btn {
+  width: 200px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  /* border: 1px solid #fff; */
+  background: rgba(128, 128, 128, 0.499);
+  color: #fff;
+  cursor: pointer;
+  padding: 4px;
+  box-shadow: 0 0 5px #fafafa, inset 0 -1px 2px #000000;
+
+  border: none;
+}
+
+.btn:hover {
+  background-color: #dc83dd30;
+  /* color: rgba(0, 0, 0, 0.7); */
+  box-shadow: 0 0 8px #fafafa, inset 0 -1px 2px #000000;
+
+  scale: 1.06;
+  transition: 0.5s;
+}
+
+.inputText {
+  font-weight: 900;
+  color: #fafafa;
+  text-shadow: 0 0 3px black;
+  background: transparent;
+  width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  outline: none;
+  text-align: center;
+  /* border-bottom: 2px solid blue; */
+  font-size: 20px;
+  transition: all ease-in-out 0.3s;
+}
+.inputText:hover {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+.inputText:focus {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  text-shadow: none;
+}
+
+.info {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info p {
+  margin-top: 10px;
+}
+
+#sicaklik {
+  font-size: 5rem;
+}
+
+#hissedilen {
+  font-size: 1rem;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+span {
+  text-shadow: 0 2px 4px yellow, 0 -2px 4px rgb(67, 1, 67);
+  font-weight: 900;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 3rem;
+    margin-top: 30px;
+  }
+  #sicaklik {
+    font-size: 4rem;
+  }
+  .btnDiv {
+    margin: 30px;
+  }
+}
